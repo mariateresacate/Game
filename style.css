@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+body {
+  font-family:Arial,Helvetica,sans-serif;
+  margin:0px;
+  text-align:justify;
+  
+}
+a {
+  text-decoration:none;
+  color: rebeccapurple;
+}
+h2 > a {
+  color:#C71EF9;
+}
+header {
+  text-align:center;
+}
+nav {
+  background-color:#C71EF9;
+  text-align:left;
+  padding:5px;
+}
+nav > img {
+  width:50px;
+}
+section#princ {
+  background-color:#B8B8B8;
+  padding-top:25px;
+  padding-bottom:25px;
+  text-align:center;
+  margin:10px;
+}
+
+.nv {
+  background-color:#00A6FF;
+  border-radius:10px;
+  width:100px;
+  display: inline-block;
+  box-shadow:2px 7px 7px rgba(0,0,0,0.3 5);
+}
+
+p {
+  padding:10px;
+}
+p>strong {
+  color:#C71EF9;
+}
+
+footer {
+  background-color:#00A6FF;
+  text-align:center;
+  padding:10px;
+}
+section.jogos {
+  background-color:#B8B8B8;
+  height:600px;
+  margin:10px;
+  padding:10px;
+}
+
+.jogos > div {
+  background-color:#C71EF9;
+  width:70%;
+  margin:auto;
+  padding:10px;
+  border-radius:10px;
+  margin-top: 25px;
+  box-shadow:2px 7px 7px rgba(0, 0, 0, 0.35);
+  width:275px;
+}
+p#log {
+  font-size:3em;
+}
+a#ver {
+  padding-top:10px;
+  margin-top:10px;
+  border-top:10px;
+  text-decoration:none;
+  display:block;
+}
+main#centro {
+  text-align:center;
+  padding:10px;
+}
+div#Apre {
+  /*background-color:red;*/
+  width:345px;
+  margin:auto;
+}
+div#Apre > strong {
+  color:#C71EF9;
+}
